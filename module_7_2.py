@@ -10,6 +10,7 @@ def custom_write(file_name, strings):
         ind_begin = file.tell()
         file.write(strings[i] + '\n')
         strings_positions.update({(i+1, ind_begin): strings[i]})
+    file.close()
     return strings_positions
 
 
