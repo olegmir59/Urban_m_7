@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4559a244-3978-42ef-b4e4-f317cfc9ed48" name="Changes" comment="Add File">
-      <change afterPath="$PROJECT_DIR$/test_file.txt" afterDir="false" />
+    <list default="true" id="4559a244-3978-42ef-b4e4-f317cfc9ed48" name="Changes" comment="Modify File">
+      <change afterPath="$PROJECT_DIR$/te.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module_7_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_7_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,9 @@
     &quot;accountId&quot;: &quot;aab1a888-ce78-43a2-8066-f27f545007a0&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/module_7_3.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -47,18 +51,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.module_7_1.executor": "Run",
-    "Python.module_7_2.executor": "Run",
-    "Python.module_7_3.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Projects/Python/Urban_2020_HW/pythonProject1",
-    "settings.editor.selected.configurable": "editor.preferences.tabs"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_7_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_7_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_7_3.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projects/Python/Urban_2020_HW/pythonProject1&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Module_7" />
@@ -180,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727423888842</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Modify File">
+      <option name="closed" value="true" />
+      <created>1727441912981</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727441912981</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -188,7 +201,8 @@
     <MESSAGE value="Add Files" />
     <MESSAGE value="Modify Files" />
     <MESSAGE value="Add File" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add File" />
+    <MESSAGE value="Modify File" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify File" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
