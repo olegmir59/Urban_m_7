@@ -46,8 +46,8 @@ class WordsFinder:
 
 finder2 = WordsFinder('test_file.txt', 'test.txt', 'te.txt')
 print(finder2.get_all_words())  # Все слова
-print(finder2.find('TEXT'))  # 3 слово по счёту
-print(finder2.find('ча'))    # 3 слово по счёту
-print(finder2.count('teXT'))  # 4 слова teXT в тексте всего
-print(finder2.count('utf-8'))  # 4 слова teXT в тексте всего
-print(finder2.count('ча'))   #4 слова teXT в тексте всего
+print(finder2.find('TEXT'))     # позиция слова по счёту
+print(finder2.find('ча'))       # позиция слова по счёту
+print(finder2.count('teXT'))    # количество слов teXT в тексте всего
+print(finder2.count('utf-8'))   # количество слов utf-8 в тексте всего
+print(finder2.count('чА'))      # количество слов чА в тексте всего
