@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4559a244-3978-42ef-b4e4-f317cfc9ed48" name="Changes" comment="Add Files">
-      <change afterPath="$PROJECT_DIR$/module_7_2.py" afterDir="false" />
+    <list default="true" id="4559a244-3978-42ef-b4e4-f317cfc9ed48" name="Changes" comment="Modify Files">
+      <change afterPath="$PROJECT_DIR$/module_7_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_7_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_7_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;olegmir59&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/olegmir59/Urban_m_7&quot;,
+    &quot;accountId&quot;: &quot;aab1a888-ce78-43a2-8066-f27f545007a0&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -40,12 +51,14 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.module_7_1.executor": "Run",
     "Python.module_7_2.executor": "Run",
+    "Python.module_7_3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Projects/Python/Urban_2020_HW/pythonProject1",
-    "settings.editor.selected.configurable": "Console"
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.module_7_2">
+  <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Module_7" />
       <option name="ENV_FILES" value="" />
@@ -90,7 +103,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="module_7_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="module_7_2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Module_7" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,7 +127,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.module_7_2" />
         <item itemvalue="Python.module_7_1" />
       </list>
     </recent_temporary>
@@ -143,13 +155,30 @@
       <option name="project" value="LOCAL" />
       <updated>1727207631941</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Files">
+      <option name="closed" value="true" />
+      <created>1727332605107</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727332605107</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Modify Files">
+      <option name="closed" value="true" />
+      <created>1727336856602</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727336856602</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Files" />
+    <MESSAGE value="Modify Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify Files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -158,11 +187,6 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/module_7_1.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
