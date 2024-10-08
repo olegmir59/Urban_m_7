@@ -4,7 +4,6 @@
 # Задача "За честь и отвагу!":
 
 from time import sleep
-from datetime import datetime
 from threading import Thread
 from threading import Lock
 lock = Lock()
