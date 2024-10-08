@@ -25,10 +25,10 @@ write_words(100, "example4.txt")
 time_end = datetime.now()
 print(f"Работа потоков: {time_end - time_start}")
 
-tr_1 =Thread(target=write_words, args=(10, "example5.txt"))
-tr_2 =Thread(target=write_words, args=(30, "example6.txt"))
-tr_3 =Thread(target=write_words, args=(200, "example7.txt"))
-tr_4 =Thread(target=write_words, args=(100, "example8.txt"))
+tr_1 = Thread(target=write_words, args=(10, "example5.txt"))
+tr_2 = Thread(target=write_words, args=(30, "example6.txt"))
+tr_3 = Thread(target=write_words, args=(200, "example7.txt"))
+tr_4 = Thread(target=write_words, args=(100, "example8.txt"))
 
 time_start = datetime.now()
 
