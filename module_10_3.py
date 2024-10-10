@@ -7,6 +7,7 @@ from time import sleep
 from threading import Thread
 from threading import Lock
 from random import randint
+
 class Bank:
     def __init__(self):
         self.balance = 0
@@ -19,22 +20,26 @@ class Bank:
             dep_val = randint(50,500)
             sleep(0.001)
             self.balance += dep_val
+            #Транзакция — это любая сделка или операция, для совершения  которой используется банковский счёт,
+            # при этом баланс на нём изменяется
+            dep_num += 1
             self.lock2.acquire()
             print(f"Пополнение: {dep_val}. Баланс: {self.balance}")
-            dep_num += 1
             self.lock2.release()
             if self.balance >= 500 and self.lock.locked():
                 self.lock.release()
 
     def take(self):
+        take_try_num = 0
         take_num = 0
-        while take_num <= 100:
-            take_num += 1
+        while take_num <= 100 and take_try_num <= 150 :
+            take_try_num += 1
 
             take_val = randint(50,500)
             sleep(0.001)
             if take_val <= self.balance:
                 self.balance -= take_val
+                take_num += 1
                 self.lock2.acquire()
                 print(f"Снятие: {take_val}. Баланс: {self.balance}")
                 self.lock2.release()

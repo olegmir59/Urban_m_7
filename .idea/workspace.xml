@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4559a244-3978-42ef-b4e4-f317cfc9ed48" name="Changes" comment="Modify file">
-      <change afterPath="$PROJECT_DIR$/module_10_3.py" afterDir="false" />
+    <list default="true" id="4559a244-3978-42ef-b4e4-f317cfc9ed48" name="Changes" comment="Add file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_10_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_10_3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,35 +49,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.main.executor": "Run",
-    "Python.module_10_1.executor": "Run",
-    "Python.module_10_2.executor": "Run",
-    "Python.module_10_3.executor": "Run",
-    "Python.module_7_1.executor": "Run",
-    "Python.module_7_2.executor": "Run",
-    "Python.module_7_3.executor": "Run",
-    "Python.module_7_3_OS.executor": "Run",
-    "Python.module_7_3_format.executor": "Run",
-    "Python.module_8_1.executor": "Run",
-    "Python.module_8_2.executor": "Run",
-    "Python.module_8_3.executor": "Run",
-    "Python.module_9_1.executor": "Run",
-    "Python.module_9_2.executor": "Run",
-    "Python.module_9_3.executor": "Run",
-    "Python.module_9_4.executor": "Run",
-    "Python.module_9_5.executor": "Run",
-    "Python.module_9_6.executor": "Run",
-    "Python.module_9_7.executor": "Run",
-    "Python.test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Projects/Python/Urban_2020_HW/pythonProject1",
-    "settings.editor.selected.configurable": "editor.preferences.tabs"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_10_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_10_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_10_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_7_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_7_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_7_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_7_3_OS.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_7_3_format.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_8_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_8_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_8_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_9_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_9_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_9_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_9_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_9_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_9_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_9_7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projects/Python/Urban_2020_HW/pythonProject1&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Module_7" />
@@ -390,7 +390,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728407340012</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Add file">
+      <option name="closed" value="true" />
+      <created>1728498134193</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1728498134193</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -399,8 +407,8 @@
     <MESSAGE value="Modify Files" />
     <MESSAGE value="Add File" />
     <MESSAGE value="Modify File" />
-    <MESSAGE value="Add file" />
     <MESSAGE value="Modify file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify file" />
+    <MESSAGE value="Add file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add file" />
   </component>
 </project>
