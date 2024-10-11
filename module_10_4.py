@@ -4,8 +4,7 @@
 # Задача "Потоки гостей в кафе":
 
 import time
-from collections import defaultdict
-
+#from collections import defaultdict
 import queue
 import random
 from threading import Thread
@@ -15,12 +14,14 @@ from threading import Thread
 
 
 class Table:
+
     def __init__(self,number):
         self.number = number
         self.guest = None
 
 
 class Guest(Thread):
+
     def __init__(self,name):
         super().__init__()
         self.name = name
@@ -35,6 +36,10 @@ class Cafe:
         self.tables = tables
         self.cafe_queue = queue.Queue(maxsize=20)
 
+
+#   Поиск свободных столиков.
+#   Если find_flag = True  возвращает список свободных столиков
+#   Если find_flag = False возвращает список занятых столиков
     def find_free_tables(self,find_flag):
         list_free_tables = []
         list_tables_with_guest =[]
@@ -60,10 +65,20 @@ class Cafe:
                 self.cafe_queue.put(g_)
                 print(f"{g_.name} в очереди")
 
-
     def discuss_guests(self):
-        while not self.cafe_queue.empty() and self.find_free_tables(False) is not []:
-            pass
+        while len(self.find_free_tables(False)) > 0:
+            for table in self.find_free_tables(False):
+                if not table.guest.is_alive():
+                    print(f"{table.guest.name} покушал(-а) и ушёл(ушла)")
+                    print(f"Стол номер {table.number}  свободен")
+                    table.guest = None
+
+            if not self.cafe_queue.empty() and len(self.find_free_tables(True)) > 0:
+                for table in self.find_free_tables(True):
+                    table.guest = self.cafe_queue.get()
+                    print(f"{table.guest.name} вышел(-ла) из очереди и сел(-а) за стол номер {table.number}")
+                    table.guest.start()  # поток гостя запущен
+
 # Создание столов
 tables = [Table(number) for number in range(1, 6)]
 # Имена гостей
@@ -78,4 +93,4 @@ cafe = Cafe(*tables)
 # Приём гостей
 cafe.guest_arrival(*guests)
 # Обслуживание гостей
-#cafe.discuss_guests()
+cafe.discuss_guests()
