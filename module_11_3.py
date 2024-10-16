@@ -12,7 +12,6 @@ import inspect
 import sys
 from pprint import pprint
 
-
 class Dog:
     def __init__(self, name, size, colour):
         self.name = name
@@ -20,12 +19,12 @@ class Dog:
         self.colour = colour
 
     def run_dog(self):
-        print("обежааааааааааал!")
+        print("побежааааааааааал!")
     def sleep_dog(self):
         print("сплююююю, не будить!")
 
     def voice_dog(self):
-        print("сплююююю, не будить!")
+        print("лаю!")
         return "Gaw Gaw Gaw"
 
 def introspection_info(obj):
